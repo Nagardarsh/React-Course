@@ -1,0 +1,11 @@
+const [searchClicked, setsearchClicked] = useState("false");
+ <button className="seacrh-btn"
+        onClick={() => {
+            if(searchClicked === "true") {
+                setsearchClicked("false");
+            }else {
+                setsearchClicked("true");
+            }
+            
+        }}>Search</button>
+
